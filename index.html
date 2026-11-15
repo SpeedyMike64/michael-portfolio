@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michael [Surname] — Director &amp; Editor</title>
+<meta name="description" content="Director and editor of brand and product films. One person, brief to final cut.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="home">
+
+  <header class="top">
+    <a class="brand" href="index.html" data-site="name">Michael [Surname]</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#programme">Programme</a>
+      <a href="about.html">Credits</a>
+      <a href="about.html" class="pill">CV ↓</a>
+    </nav>
+  </header>
+
+  <section aria-label="Now showing" class="wrap" style="padding-top:0">
+    <div style="position:relative;width:100%;aspect-ratio:16/9;max-height:740px;min-height:260px;border-radius:14px;overflow:hidden;background:#1b1428" id="stage-frame">
+      <div id="stage" style="position:absolute;inset:0"></div>
+    </div>
+    <div id="chapters" class="chapters" role="group" aria-label="Choose a film"></div>
+  </section>
+
+  <section class="wrap intro" aria-label="Introduction">
+    <h1>I direct <em>and</em> edit brand and product films. One person, from the first brief to the final cut — so every project comes with <em class="l">two commentary tracks.</em></h1>
+  </section>
+
+  <section id="programme" class="wrap programme" aria-label="Programme">
+    <div class="prog-head">
+      <h2 id="count">Programme</h2>
+      <div class="filters" id="filters" role="group" aria-label="Filter by role">
+        <button class="filter" type="button" data-f="all" aria-pressed="true">All</button>
+        <button class="filter" type="button" data-f="directed" aria-pressed="false">Directed</button>
+        <button class="filter" type="button" data-f="edited" aria-pressed="false">Edited</button>
+      </div>
+    </div>
+    <div id="programme-list"></div>
+  </section>
+
+  <footer class="footer">
+    <span class="glow" aria-hidden="true"></span>
+    <div class="footer-in">
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <span class="mono" style="color:var(--lime)">Hiring a video lead?</span>
+        <a class="big" data-site="email" href="mailto:[your-email]">[your-email]</a>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">Download CV</a>
+        <a data-site="linkedin" href="#">LinkedIn</a>
+        <span class="muted" data-site="location">London, UK</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/content.js"></script>
+  <script src="assets/site.js"></script>
+</body>
+</html>

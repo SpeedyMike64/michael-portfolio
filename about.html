@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Credits — Michael [Surname]</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="about">
+
+  <header class="top">
+    <a class="brand" href="index.html" data-site="name">Michael [Surname]</a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">Programme</a>
+      <a href="about.html" aria-current="page">Credits</a>
+    </nav>
+  </header>
+
+  <section class="about">
+    <div class="portrait" id="portrait"></div>
+    <div class="copy">
+      <h1>Most credit rolls are long. <em>Mine is one name.</em></h1>
+      <p class="bio" id="bio">I'm a London-based director and editor. At Pencil Spaces I run video as a one-person team.</p>
+      <div class="actions">
+        <a class="btn solid" data-site="cv" href="assets/cv.pdf">Download CV (PDF)</a>
+        <a class="btn" data-site="email" href="mailto:[your-email]">[your-email]</a>
+        <a class="btn" data-site="linkedin" href="#">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="roll-band">
+    <span class="glow" aria-hidden="true"></span>
+    <div class="roll" id="about-roll"></div>
+  </section>
+
+  <section class="exp">
+    <div id="about-exp"></div>
+    <div id="about-tools"></div>
+  </section>
+
+  <footer class="footer">
+    <span class="glow" aria-hidden="true"></span>
+    <div class="footer-in">
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <span class="mono" style="color:var(--lime)" data-site="availability">Open to in-house roles</span>
+        <a class="big" data-site="email" href="mailto:[your-email]">[your-email]</a>
+      </div>
+      <div class="footer-links">
+        <span class="muted" data-site="location">London, UK</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/content.js"></script>
+  <script src="assets/site.js"></script>
+  <script>
+    // Bio comes from content.js so it only lives in one place.
+    document.getElementById("bio").textContent = window.SITE.bio;
+  </script>
+</body>
+</html>
