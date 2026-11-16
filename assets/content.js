@@ -7,7 +7,7 @@
 
 window.SITE = {
   name: "Michael Chan",
-  email: "[your-email]",
+  email: "michaelkwanlapchan@gmail.com",
   location: "London, UK",
   availability: "Open to in-house roles",
   linkedin: "https://www.linkedin.com/in/[your-handle]",
