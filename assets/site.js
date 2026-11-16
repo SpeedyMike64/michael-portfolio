@@ -47,6 +47,20 @@
     return r.join(" · ");
   }
 
+  // Social icon links (Instagram, YouTube, LinkedIn). Any left blank in content.js are skipped.
+  var ICONS = {
+    instagram: '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4.2"></circle><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"></circle></svg>',
+    youtube: '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="5" width="19" height="14" rx="4"></rect><path d="M10 9.2v5.6l4.8-2.8z" fill="currentColor" stroke="none"></path></svg>',
+    linkedin: '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="3"></rect><path d="M8 10.5v6M8 7.6v.1M11.5 16.5v-6M11.5 13c0-1.6 1-2.6 2.4-2.6s2.1.9 2.1 2.6v3.5"></path></svg>'
+  };
+  function socials() {
+    return [["instagram", "Instagram"], ["youtube", "YouTube"], ["linkedin", "LinkedIn"]]
+      .filter(function (s) { return SITE[s[0]]; })
+      .map(function (s) {
+        return '<a class="social" href="' + esc(SITE[s[0]]) + '" target="_blank" rel="noopener" aria-label="' + s[1] + '">' + ICONS[s[0]] + "</a>";
+      }).join("");
+  }
+
   // Fill in the shared header/footer details.
   function fillSite() {
     document.querySelectorAll("[data-site=name]").forEach(function (el) { el.textContent = SITE.name; });
@@ -57,6 +71,7 @@
     document.querySelectorAll("[data-site=cv]").forEach(function (el) { el.setAttribute("href", SITE.cv); });
     document.querySelectorAll("[data-site=linkedin]").forEach(function (el) { el.setAttribute("href", SITE.linkedin); });
     document.querySelectorAll("[data-site=location]").forEach(function (el) { el.textContent = SITE.location; });
+    document.querySelectorAll("[data-socials]").forEach(function (el) { el.innerHTML = socials(); });
     document.querySelectorAll("[data-site=availability]").forEach(function (el) { el.textContent = SITE.availability; });
   }
 
@@ -186,9 +201,9 @@
     var root = document.getElementById("about-roll");
     if (!root) return;
     root.innerHTML =
-      '<h2>On a typical project</h2>' +
+      '<h2>My role on a typical project</h2>' +
       SITE.roll.map(function (r) {
-        var isMe = r[1].indexOf(SITE.name.split(" ")[0]) === 0;
+        var isMe = r[1].indexOf("With") !== 0;
         return '<div class="roll-row"><span class="j">' + esc(r[0]) + '</span><span class="n' + (isMe ? "" : " other") + '">' + esc(r[1]) + "</span></div>";
       }).join("");
 

@@ -11,23 +11,24 @@ window.SITE = {
   location: "London, UK",
   availability: "Open to in-house roles",
   linkedin: "https://www.linkedin.com/in/[your-handle]",
+  instagram: "https://www.instagram.com/[your-handle]",
+  youtube: "https://www.youtube.com/@[your-handle]",
   cv: "assets/cv.pdf",
   portrait: "",
-  bio: "I'm a London-based director and editor. At Pencil Spaces I run video as a one-person team: I turn a brief into scripts, storyboards and shot lists, work with design and copy to build it, run the shoot, and cut the final film myself. [One more line on what drives your work.]",
+  bio: "I'm a London-based director and editor. At Pencil Spaces I lead video: I turn a brief into scripts, storyboards and shot lists, work with the design and copy teams to build it, direct the shoot, and edit the final film. [One more line on what drives your work.]",
   experience: [
     { role: "[Job title]", org: "Pencil Spaces", years: "[Year] – now" },
     { role: "[Job title]", org: "[Previous employer]", years: "[Years]" }
   ],
   tools: ["Premiere Pro", "DaVinci Resolve", "After Effects", "[Camera kit]"],
   roll: [
-    ["Concept & script", "Michael [Surname]"],
-    ["Storyboards & shot list", "Michael [Surname]"],
-    ["Casting & locations", "Michael [Surname]"],
-    ["Director", "Michael [Surname]"],
-    ["Editor", "Michael [Surname]"],
-    ["Sound & grade", "Michael [Surname]"],
-    ["Design", "the in-house design team"],
-    ["Copy", "the in-house copy team"]
+    ["Concept & script", "Lead"],
+    ["Storyboards & shot list", "Lead"],
+    ["Casting & locations", "Lead"],
+    ["Direction", "Lead"],
+    ["Edit, sound & grade", "Lead"],
+    ["Design", "With the design team"],
+    ["Copy", "With the copy team"]
   ]
 };
 
