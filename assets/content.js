@@ -6,7 +6,7 @@
 */
 
 window.SITE = {
-  name: "Michael [Surname]",
+  name: "Michael Chan",
   email: "[your-email]",
   location: "London, UK",
   availability: "Open to in-house roles",
@@ -72,7 +72,7 @@ window.PROJECTS = [
         director: "[What the film did for the business. Real numbers only.]",
         editor: "[What you delivered — master, cutdowns, captions, formats.]" }
     ],
-    credits: [["Written, directed & edited by", "Michael [Surname]"], ["Design", "[Name]"], ["Copy", "[Name]"], ["Camera", "[Name]"], ["Cast", "[Names]"], ["Music", "[Track / library]"]]
+    credits: [["Written, directed & edited by", "Michael Chan"], ["Design", "[Name]"], ["Copy", "[Name]"], ["Camera", "[Name]"], ["Cast", "[Names]"], ["Music", "[Track / library]"]]
   },
   {
     slug: "apple-collab",
@@ -87,7 +87,7 @@ window.PROJECTS = [
     runtime: "[0:00]",
     result: "[Real result.]",
     chapters: null,
-    credits: [["Director & editor", "Michael [Surname]"]]
+    credits: [["Director & editor", "Michael Chan"]]
   },
   {
     slug: "spacebar",
@@ -102,7 +102,7 @@ window.PROJECTS = [
     runtime: "[0:00]",
     result: "[Real result.]",
     chapters: null,
-    credits: [["Director & editor", "Michael [Surname]"]]
+    credits: [["Director & editor", "Michael Chan"]]
   },
   {
     slug: "launch-demo",
@@ -117,7 +117,7 @@ window.PROJECTS = [
     runtime: "[0:00]",
     result: "[Real result.]",
     chapters: null,
-    credits: [["Director & editor", "Michael [Surname]"]]
+    credits: [["Director & editor", "Michael Chan"]]
   },
   {
     slug: "feature-series",
@@ -132,7 +132,7 @@ window.PROJECTS = [
     runtime: "[0:00]",
     result: "[Real result.]",
     chapters: null,
-    credits: [["Editor", "Michael [Surname]"]]
+    credits: [["Editor", "Michael Chan"]]
   },
   {
     slug: "tutor-white-label",
@@ -147,6 +147,6 @@ window.PROJECTS = [
     runtime: "0:30",
     result: "[Real result.]",
     chapters: null,
-    credits: [["Editor", "Michael [Surname]"]]
+    credits: [["Editor", "Michael Chan"]]
   }
 ];
