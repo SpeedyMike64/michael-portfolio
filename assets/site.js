@@ -80,7 +80,7 @@
     var stage = document.getElementById("stage");
     var caption = document.getElementById("caption");
     var chapters = document.getElementById("chapters");
-    var list = document.getElementById("programme");
+    var list = document.getElementById("programme-list");
     var count = document.getElementById("count");
     var filterBox = document.getElementById("filters");
     if (!stage) return;
