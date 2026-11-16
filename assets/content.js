@@ -11,7 +11,7 @@ window.SITE = {
   location: "London, UK",
   availability: "Open to in-house roles",
   linkedin: "https://www.linkedin.com/in/[your-handle]",
-  instagram: "https://www.instagram.com/[your-handle]",
+  instagram: "https://www.instagram.com/speedymike64/",
   youtube: "https://www.youtube.com/@[your-handle]",
   cv: "assets/cv.pdf",
   portrait: "",
