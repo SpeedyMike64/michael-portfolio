@@ -15,7 +15,7 @@ window.SITE = {
   youtube: "https://www.youtube.com/channel/UCji7sZqo9I71Rws0WpIq51g",
   cv: "assets/cv.pdf",
   portrait: "",
-  bio: "I'm a London-based director and editor. At Pencil Spaces I lead video: I turn a brief into scripts, storyboards and shot lists, work with the design and copy teams to build it, direct the shoot, and edit the final film. [One more line on what drives your work.]",
+  bio: "I'm a London-based producer, director and editor. At Pencil Spaces I lead video end to end: I turn a brief into scripts, storyboards and shot lists, produce the shoot (schedule, casting, crew and locations), work with the design and copy teams to build it, direct on the day, and edit the final film. [One more line on what drives your work.]",
   experience: [
     { role: "[Job title]", org: "Pencil Spaces", years: "[Year] – now" },
     { role: "[Job title]", org: "[Previous employer]", years: "[Years]" }
@@ -24,7 +24,7 @@ window.SITE = {
   roll: [
     ["Concept & script", "Lead"],
     ["Storyboards & shot list", "Lead"],
-    ["Casting & locations", "Lead"],
+    ["Producing: casting, crew & schedule", "Lead"],
     ["Direction", "Lead"],
     ["Edit, sound & grade", "Lead"],
     ["Design", "With the design team"],
@@ -33,7 +33,7 @@ window.SITE = {
 };
 
 /*
-  roles: any of "directed", "edited"
+  roles: any of "produced", "directed", "edited"
   chapters: the brief-to-result story. Each chapter has a director note and an editor note.
   The two notes are the "commentary tracks" on the project page.
 */
@@ -44,8 +44,8 @@ window.PROJECTS = [
     client: "Pencil Spaces",
     kind: "Brand film",
     year: "2026",
-    roles: ["directed", "edited"],
-    roleLine: "Concept · Direction · Edit",
+    roles: ["produced", "directed", "edited"],
+    roleLine: "Concept · Production · Direction · Edit",
     logline: "[One-line logline — what the film is about and who it is for.]",
     video: "",
     runtime: "[0:00]",
@@ -80,8 +80,8 @@ window.PROJECTS = [
     client: "Apple",
     kind: "Partner film",
     year: "2026",
-    roles: ["directed", "edited"],
-    roleLine: "Direction · Edit",
+    roles: ["produced", "directed", "edited"],
+    roleLine: "Production · Direction · Edit",
     logline: "[One line on the collaboration.]",
     video: "",
     runtime: "[0:00]",
@@ -95,8 +95,8 @@ window.PROJECTS = [
     client: "Pencil Spaces",
     kind: "Product teaser",
     year: "2026",
-    roles: ["directed", "edited"],
-    roleLine: "Direction · Edit",
+    roles: ["produced", "directed", "edited"],
+    roleLine: "Production · Direction · Edit",
     logline: "A teaser for our new AI product, before it launches.",
     video: "",
     runtime: "[0:00]",
@@ -110,8 +110,8 @@ window.PROJECTS = [
     client: "Pencil Spaces",
     kind: "Launch video",
     year: "2026",
-    roles: ["directed", "edited"],
-    roleLine: "Direction · Edit",
+    roles: ["produced", "directed", "edited"],
+    roleLine: "Production · Direction · Edit",
     logline: "Show the product working, in time for launch.",
     video: "",
     runtime: "[0:00]",

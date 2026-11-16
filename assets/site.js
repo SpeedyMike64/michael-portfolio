@@ -42,6 +42,7 @@
   function projectUrl(p) { return "project.html?p=" + encodeURIComponent(slugOf(p)); }
   function rolesText(p) {
     var r = [];
+    if (p.roles.indexOf("produced") > -1) r.push("Produced");
     if (p.roles.indexOf("directed") > -1) r.push("Directed");
     if (p.roles.indexOf("edited") > -1) r.push("Edited");
     return r.join(" · ");
