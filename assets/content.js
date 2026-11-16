@@ -12,7 +12,7 @@ window.SITE = {
   availability: "Open to in-house roles",
   linkedin: "https://www.linkedin.com/in/[your-handle]",
   instagram: "https://www.instagram.com/speedymike64/",
-  youtube: "https://www.youtube.com/@[your-handle]",
+  youtube: "https://www.youtube.com/channel/UCji7sZqo9I71Rws0WpIq51g",
   cv: "assets/cv.pdf",
   portrait: "",
   bio: "I'm a London-based director and editor. At Pencil Spaces I lead video: I turn a brief into scripts, storyboards and shot lists, work with the design and copy teams to build it, direct the shoot, and edit the final film. [One more line on what drives your work.]",
