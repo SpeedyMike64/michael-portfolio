@@ -10,7 +10,7 @@ window.SITE = {
   email: "michaelkwanlapchan@gmail.com",
   location: "London, UK",
   availability: "Open to in-house roles",
-  linkedin: "https://www.linkedin.com/in/[your-handle]",
+  linkedin: "https://www.linkedin.com/in/michael-chan-32839329a/",
   instagram: "https://www.instagram.com/speedymike64/",
   youtube: "https://www.youtube.com/channel/UCji7sZqo9I71Rws0WpIq51g",
   cv: "assets/cv.pdf",
